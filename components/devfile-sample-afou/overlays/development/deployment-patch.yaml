@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-afou
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/sbudhwar-1-tenant/my-app/devfile-sample-afou@sha256:6a230d8eb9bcc119b8dbe9b2e981840eeae27fc3328c34f68d219c8e41ea41f4
+        name: my-nodejs
+        resources: {}
+status: {}
