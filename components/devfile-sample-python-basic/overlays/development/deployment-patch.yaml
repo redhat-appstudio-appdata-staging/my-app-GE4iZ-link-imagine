@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/sbudhwar-1-tenant/my-app/devfile-sample-python-basic@sha256:287c7023cbb57b5d45fa1b1207d4930cc414faa83f68b8abd2efdc20d876e8d1
+        name: my-python
+        resources: {}
+status: {}
