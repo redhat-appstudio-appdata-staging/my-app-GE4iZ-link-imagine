@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: upgraded-manner
     app.kubernetes.io/part-of: my-app
-  name: upgraded-mannerezbp
+  name: upgraded-mannerg1aj
 spec:
   port:
     targetPort: 8080
