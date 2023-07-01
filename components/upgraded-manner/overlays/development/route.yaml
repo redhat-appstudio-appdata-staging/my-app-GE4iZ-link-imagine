@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: upgraded-manner
     app.kubernetes.io/part-of: my-app
-  name: upgraded-mannerpccs
+  name: upgraded-manner5opi
 spec:
   port:
     targetPort: 8080
